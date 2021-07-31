@@ -1,0 +1,17 @@
+
+
+ALU Instruction Encoding:
+
+
+		<unspec:12> <rD:4> <rB:4> <rA:4> <op:5> <noflags:1>01
+		<     ime:16     > <rD:4> <rA:4> <op:5> <noflags:1>11
+	
+	
+	
+	op : Alu op code
+	rA : First operand register address
+	rB : Second operand register address
+	rD : Result destination register address
+	ime : User provided immediate
+	noflags : Disables modifying ALU flags on instruction
+
