@@ -1,0 +1,14 @@
+# Logisim PLA program table
+
+00101 0001 # ADD (ADD)
+10101 0010 # ADC (ADC)
+
+00110 0011 # SUB (SUB)
+10110 0100 # SBC (SBC)
+
+00111 0001 # INC (ADD)
+10111 0011 # DEC (SUB)
+
+01010 0011 # CMP (SUB)
+
+xxxxx 0000 # X

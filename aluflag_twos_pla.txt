@@ -1,0 +1,13 @@
+# Logisim PLA program table
+#
+#	Two's Compliment overflow flag calculation selection
+#
+
+00110 0001 # SUB (SUB)
+10110 0010 # SBC (SBC)
+
+10111 0001 # DEC (SUB)
+
+01010 0001 # CMP (SUB)
+
+xxxxx 0000 # X
